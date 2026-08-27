@@ -1,11 +1,11 @@
 function [yhat, xhat, ehat] = simulate_pem(A, B, C, D, K, x0, u, y)
-    %   One-Step-Ahead Prediction with an ARMAX Innovations Model
+    %   One Step Ahead Prediction with an ARMAX Model
 
     %   Input
     %   A:	state matrix (matrix of size n x n)
     %   B:	input matrix (matrix of size n x 1)
     %   C:	output matrix (matrix of size 1 x n)
-    %   D:	feedthrough matrix (scalar)
+    %   D:	feedthrough matrix
     %   K:	innovations (Kalman) gain (matrix of size n x 1)
     %   x0:	initial state (vector of size n x 1)
     %   u:	system input (vector of size N x 1)

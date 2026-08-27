@@ -1,5 +1,5 @@
 function H = pem_hessian(psi)
-    %   Gauss-Newton Approximate Hessian of the Prediction-Error Cost
+    %   Gauss Newton Approximate Hessian of the Prediction Error Cost
 
     %   Input
     %   psi:	derivative of estimation error wrt theta (matrix of size l*N x p)

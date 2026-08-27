@@ -1,5 +1,5 @@
 function J = pem_jacobian(psi, E)
-    %   Gauss-Newton Gradient of the Prediction-Error Cost
+    %   Gauss Newton Gradient of the Prediction Error Cost
 
     %   Input
     %   psi:	derivative of estimation error wrt theta (matrix of size l*N x p)
